@@ -41,7 +41,7 @@ function newList(data){
 			<input type="text" class="form-control col-sm-9" id="msg${data.id}" value="${data.msg}" readonly>
 			<div class="input-group-append" id="button-addon4">
 				<button class="btn btn-outline-secondary" type="button" id="btnEdit${data.id}" onclick="editList('${data.id}')">修改</button>
-				<button class="btn btn-outline-secondary" type="button" id="btnUpdate${data.id}" onclick="updateList('${data.id}')">更新</button>
+				<button class="btn btn-outline-secondary d-none" type="button" id="btnUpdate${data.id}" onclick="updateList('${data.id}')">更新</button>
 				<button class="btn btn-outline-secondary" type="button" id="btnRemove${data.id}" onclick="removeList('${data.id}')">刪除</button>
 			</div>
 		</div>`
